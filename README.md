@@ -9,7 +9,7 @@
 ## Установка
 
 ```bash
-$ composer require Dalanes/simple-calculator
+$ composer require dalanes/simple-calculator
 ```
 
 ## Использование
@@ -17,5 +17,5 @@ $ composer require Dalanes/simple-calculator
 ```php
 <?php
     $calculator = new Calculator();
-    echo $calculator->sum(1, 5);
+    echo $calculator->sum(1, 5); // 6
 ```
